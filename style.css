@@ -1,13 +1,27 @@
+/* Select the inner divs */
 .flex-item{
-    width:100px;
-    height:100px;
+    width:20%;
+    height:20%;
     background-color:crimson; 
-    margin:2px;
 }
-
+/*select the flexiable outer div */
 .flex-container{
     display:flex;
     border:2px solid black;
-
+    /* Flexbox Properties */
+    width:80%;
+    height:60%;
     justify-content:space-evenly;
+    align-items: center;
+    gap:25px;
+}
+
+.flex-container-col{
+    border:2px solid black;
+    height: 60%;
+    width:80%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
 }
